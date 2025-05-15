@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>//Couleur secondaire
+    <color name="Jaune_vibrant">#FFEB3B</color>//Couleur principale
+    <color name="Gris_clair">#F5F5F5</color>//Couleur de fond claire
+    <color name="Gris_foncé"> #212121</color>//Couleur de texte principale
+    <color name="Jaune_pastel">#FFEB8B</color>//Couleur des accents ou des icônes
+    <color name="Vert_doux">#4CAF50</color>//Couleur des boutons
+    <color name="Orange">#EA6D35</color>//Couleur d'erreur
+
+</resources>
