@@ -6,10 +6,12 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
+import com.example.recipeapp2.Data.Dao.Plat.IPlat;
 import com.example.recipeapp2.Data.Dao.User.IUser;
+import com.example.recipeapp2.Data.model.Plat;
 import com.example.recipeapp2.Data.model.User;
 
-@Database(entities = {User.class}, version = 1, exportSchema = false) // ta ndiclariw biha l entité
+@Database(entities = {User.class, Plat.class}, version = 2, exportSchema = false) // ta ndiclariw biha l entité
 public abstract class AppDatabase extends RoomDatabase {
     // Singleton instance
     private static AppDatabase instance;
@@ -21,11 +23,12 @@ public abstract class AppDatabase extends RoomDatabase {
                     context.getApplicationContext(),
                     AppDatabase.class,
                     "recipe_database"
-            ).build();
+            ).fallbackToDestructiveMigration().build();
         }
         return instance;
     }
 
     public abstract IUser getUserDao();
+    public abstract IPlat getPlatDao();
 
 }

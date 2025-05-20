@@ -43,6 +43,18 @@ android {
 //    androidTestImplementation libs.espresso.core
 //}
 dependencies {
+    //implementatiton a fin d utiliser serialisation
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+    // implementation de gild
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    implementation libs.activity
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.16.0'
+
+
+
+    
     implementation 'org.hibernate.validator:hibernate-validator:8.0.1.Final'
     implementation 'com.google.android.material:material:1.11.0'
     implementation "androidx.appcompat:appcompat:$rootProject.appCompatVersion"
