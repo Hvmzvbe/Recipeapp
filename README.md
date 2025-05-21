@@ -82,7 +82,7 @@ RecipeApp2/
 
 | Recherche live | Détail recette |
 |----------------|----------------|
-| ![search](./search.png) | ![detail](./detail.png) |
+| ![Capture1](https://github.com/user-attachments/assets/323a177a-1838-49ee-a575-88b9b128de97)| ![Capture2](https://github.com/user-attachments/assets/28e01834-d800-49f5-a023-91c2242de561)|
 
 ---
 
