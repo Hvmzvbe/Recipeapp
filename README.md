@@ -88,4 +88,4 @@ RecipeApp2/
 
 ## 📝 Auteur
 
-- Projet développé par [TonNom], dans le cadre de l’évaluation Android – MVVM + API + Room.
+- Projet développé par [Hvmzvbe], dans le cadre de l’évaluation Android – MVVM + API + Room.
