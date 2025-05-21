@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 
 
-import com.example.recipeapp2.Data.model.User;
+import com.example.recipeapp2.Model.model.User;
 import com.example.recipeapp2.R;
 import com.example.recipeapp2.View.login.MainActivity;
 import com.example.recipeapp2.ViewModel.UserViewModel;

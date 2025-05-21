@@ -5,8 +5,8 @@ import android.app.Application;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-import com.example.recipeapp2.Data.Repository.UserRepository;
-import com.example.recipeapp2.Data.model.User;
+import com.example.recipeapp2.Model.Repository.UserRepository;
+import com.example.recipeapp2.Model.model.User;
 
 public class UserViewModel extends AndroidViewModel {
     private final UserRepository userRepository;

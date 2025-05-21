@@ -123,6 +123,7 @@
                 android:padding="8dp">
 
                 <ImageView
+                    android:id="@+id/france"
                     android:layout_width="48dp"
                     android:layout_height="32dp"
                     android:scaleType="centerCrop"
@@ -150,6 +151,7 @@
                 android:padding="8dp">
 
                 <ImageView
+                    android:id="@+id/japan"
                     android:layout_width="48dp"
                     android:layout_height="32dp"
                     android:scaleType="centerCrop"

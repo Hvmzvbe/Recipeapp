@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.recipeapp2.Data.model.Plat;
+import com.example.recipeapp2.Model.model.Plat;
 import com.example.recipeapp2.R;
 import com.example.recipeapp2.View.Plat.PlatDetailActivit;
 

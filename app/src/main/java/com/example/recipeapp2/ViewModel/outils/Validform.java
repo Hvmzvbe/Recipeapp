@@ -2,7 +2,7 @@ package com.example.recipeapp2.ViewModel.outils;
 
 import android.util.Patterns;
 
-import com.example.recipeapp2.Data.model.User;
+import com.example.recipeapp2.Model.model.User;
 
 public class Validform {
     //valider le formulaire
